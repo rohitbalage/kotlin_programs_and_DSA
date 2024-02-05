@@ -30,4 +30,40 @@ fun main()
 
     println(l)
 
+
+    val f: Float = 3.1415F
+    println(f)
+
+
+    // Double
+
+    val d: Double = 90.43434
+    println(d)
+
+
+    // Booleans:
+
+    val isKotlinFun : Boolean =  true
+    println(isKotlinFun)
+
+    val isJavaFun = false
+    println(isJavaFun)
+
+    //Boolean Expressions:
+
+    val x = 10
+    val y = 5
+
+    println(x >y)
+
+
+    // Characters:
+
+    val myGrade : Char =  'A'
+
+    println(myGrade)
+
+
+   //  val myGrade2 : Char =  66    >>>>>> In Kotlin this will produce in an error. but in Java it will print B
+
 }
