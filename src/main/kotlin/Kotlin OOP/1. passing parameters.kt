@@ -22,3 +22,15 @@ fun addToNUmbers (x:  Int, y: Int) : Int {
 
     return (x+y)
 }
+
+class Businessman (var name: String, var age:Int){
+    fun talk()
+    {
+        println("The Businessman $name, is taking")
+    }
+
+    fun walk()
+    {
+        println("The Businessman  $name, is walking")
+    }
+}
