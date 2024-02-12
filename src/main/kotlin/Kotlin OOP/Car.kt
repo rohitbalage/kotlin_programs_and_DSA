@@ -1,6 +1,6 @@
 package `Kotlin OOP`
 
-class Car {
+class Car ( var brand: String, var year : Int, var color : String){
 /*
 * Attributes - Property
   Variables that belongs to the class
@@ -11,9 +11,6 @@ class Car {
 * */
 
 
-    var brand = "Ford"
-    var year = 2024
-    var color = "Red"
 
 
     fun drive()
