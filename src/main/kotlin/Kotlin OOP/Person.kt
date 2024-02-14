@@ -13,7 +13,15 @@ open class Person (var name: String, var age: Int =0) {
     print("Secondary constructor is being used")
      */
 
-    var name2: String = "Jack"  /*
+    var name2: String = "Jack"
+    private var age2 = 10   // can not access coz it is private
+    protected  var haircolor = "Black"  // protected is visible to derived and base classes.
+    internal  var   skintone = "Brown"  // invisible to any client inside the module for class.
+
+
+    /*
+
+
 
     is equivalent to :
 
