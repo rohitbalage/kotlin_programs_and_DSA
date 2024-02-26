@@ -1,1 +1,1 @@
-## This repository depicts my practice for Kotlin and Kotlin DSA.
+## This repository depicts  practice programs for Kotlin and Kotlin DSA.
