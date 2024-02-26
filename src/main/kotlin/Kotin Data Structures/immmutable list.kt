@@ -9,7 +9,7 @@
 
     var list1 = listOf<Int>(4,5,6)
 
-    var list2 = listof("Jack", "John", "Mike")
+    var list2 = mutableListOf("Jack", "John", "Mike")
 
     // list1.add : will give an error.
 
@@ -19,5 +19,7 @@
     {
         println(item)
     }
+
+
 
 }
