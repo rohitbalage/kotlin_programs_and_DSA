@@ -16,7 +16,9 @@ fun main()
 {
 
     val add = {a: Int, b: Int  -> a+b}
-    hof(add)  // calling higher order function
+    hof(add)  // calling higher order function  of hof{a: Int, b:Int, Int -> a+n}
+
+    hof2("Jack", {a: Int, b: Int  -> a+b} )  //
 }
 
 // Higher order functions
@@ -26,4 +28,10 @@ fun hof(addition: (Int, Int) -> Int)
     val result = addition(4,5)
     println(result)
 
+}
+
+fun hof2(name: String, addition: (Int, Int) -> Int)
+{
+   val result = addition(4,5)
+    println("Hello $name : " +result)
 }
