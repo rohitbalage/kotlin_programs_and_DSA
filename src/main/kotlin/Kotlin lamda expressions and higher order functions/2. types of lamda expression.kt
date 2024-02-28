@@ -25,4 +25,8 @@ fun main()
 
     add4.invoke()
 
+    // Direct use of lamda expressions
+
+    println({a: Int, b: Int -> a *b} (4,5))
+
 }
