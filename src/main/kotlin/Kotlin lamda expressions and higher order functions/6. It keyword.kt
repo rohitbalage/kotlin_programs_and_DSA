@@ -21,6 +21,11 @@ hof3 { println("Hi $it") }
     // using it
     reverseString("Hello" ){it.reversed() }
 
+
+
+
+
+
 }
 
 fun hof3(name : (String) -> Unit)
